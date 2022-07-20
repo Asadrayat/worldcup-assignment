@@ -1,77 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik&display=swap');
-body{
+
+body {
     ont-family: 'Poppins', sans-serif;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 
-section{
+section {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 /* 1st part  */
-section{
+section {
     margin-top: 33px;
+
 }
-.first-parts{
+
+.first-parts {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     width: 1321px;
     height: 646px;
     column-gap: 34px;
-    background-color:  #161616;
+    background-color: #161616;
     border-radius: 25px;
-    
+
 }
-.first-part{
+
+.first-part {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-   padding-left: 106px;
+    padding-left: 106px;
 }
+
 .large-txt {
     color: #FFFFFF;
     margin-top: 100px;
     font-size: 74px;
     padding-top: 50px;
-   
+
 }
-.small-txt{
+
+.small-txt {
     font-size: 20px;
     color: #FFFFFF;
     margin-top: -50px;
 }
-.small-txt:hover{
+
+.small-txt:hover {
     transform: scale(1.2);
     transition-duration: 2s;
 }
-.first-part-img img{
-width: 581px;
-height: 613px;
-padding-top: 33px;
+
+.first-part-img img {
+    width: 581px;
+    height: 613px;
+    padding-top: 33px;
 }
-.first-part-img img:hover{
+
+.first-part-img img:hover {
     transform: scale(.85);
-    transition-duration: 1.5s; 
+    transition-duration: 1.5s;
 }
+
 .btn {
-   
+
     width: 187px;
     height: 57px;
     background-color: #DD0000;
-      padding: 16px, 25px, 16px, 25px;
-      border-radius: 5px; 
+    padding: 16px, 25px, 16px, 25px;
+    border-radius: 5px;
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: #FFFFFF;
 }
+
 /* 2nd part  */
 .second-head{
     width:1321px; 
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    margin-bottom:  100px; ;
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+    margin-bottom:  100px;
 }
 .box{
     
@@ -88,53 +101,45 @@ padding-top: 33px;
     align-items: center;
     justify-items: center;
 }
-.upcoming button,.group button{ 
+ .blog  button,.group button{ 
     border-radius: 10px;
     height: 64px;
     width: 252px;
 }
-.blog button{
+.upcoming button{
     background-color: #DD0000;
     height: 64px;
     width: 252px;
     border-radius: 10px;
 }
-.upcoming a,.group a{
+.blog a,.group a{
     text-decoration: none;
     color: #161616;
     font-weight: 500;
 }
-.blog a{
+.upcoming a{
     text-decoration: none;
     color: #FFFFFF;
 }
-.transfer-head{
+.flags-head{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 24px;
     column-gap: 24px;
 }
-.transfers{
-    height: 362px;
+.flags {
+    height: 242px;
     width: 312px;
-    background-color: lightyellow;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid #E8E8E8;
     border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
-article{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-article button a{
-    text-decoration: none;
-    color: #161616;
-}
-article button{
-    background-color: lightblue;
-    margin-top: 5px;
-}
-.icons{
+
+.flag {
     display: flex;
-    column-gap: 30px;
 }
 /* part3 */
 .footers{
